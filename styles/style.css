@@ -1,10 +1,57 @@
 body {
 	background-color: #393939;
+	margin: 0;
+	padding: 0;
 }
+
 header {
 	background-color: #212121;
 }
 
+.logo{
+	font-family: 'Merriweather Sans', sans-serif;
+	color: #fff;
+	letter-spacing: 3px;
+	float: left;
+	margin-left: 50px;
+}
+
+.button {
+	display: inline-block;
+	padding: 5px 15px;
+	background-color: #fff;
+	color: #212121;
+	text-decoration: none;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	float: right;
+	margin: 5px;
+	margin-right: 50px;
+	margin-top: 1px;
+	transition: 1s;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 20px;
+}
+.text-button{
+	font-size: 20px;
+	padding: 50px;
+	color: white;
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+}
+.button:hover{
+	size: 80px;
+	transform: scale(1.2);
+}
+
+li {
+	display: inline;
+}
 h1 {
 	font-family: 'Oswald', sans-serif;
 	text-align: center;
@@ -13,27 +60,4 @@ h1 {
 }
 h1:hover{
 	transform: scale(1.05);
-}
-
-ul{
-	list-style: none;
-	margin: 0;
-	padding: 20px;
-}
-a{
-	font-size: 20px;
-	padding: 50px;
-	color: white;
-	text-decoration: none;
-	font-family: 'Oswald', sans-serif;
-	transition: 1s;
-}
-a:hover{
-	color: aliceblue;
-	size: 80px;
-	transform: scale(1.2);
-}
-
-li {
-	display: inline;
 }
